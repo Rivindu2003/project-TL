@@ -1,0 +1,83 @@
+.payments-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background: #e0e0e0;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.search-filter {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.search-filter input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #999;
+  border-radius: 4px;
+}
+
+.search-filter button {
+  padding: 8px 12px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 4px;
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+
+.search-filter button:hover {
+  background: gray;
+}
+
+.payments-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.payments-table th,
+.payments-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.status-btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.status-btn.pending {
+  background: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.status-btn.paid {
+  background: black;
+  color: white;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.delete-btn:hover {
+  color: red;
+}
